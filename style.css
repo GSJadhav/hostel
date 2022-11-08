@@ -4,184 +4,53 @@
 
 }
 
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('https://mbcet.ac.in/wp-content/uploads/2019/05/BROCHURE-HOSTEL-0011-1024x624.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
 
-.navbar{
-    display:flex;
-    background-color: rgba(0, 0, 0, 0.53);
-}
 
-.icon{
-    width: 200px;
-    float: left;
-    height: auto;
+.logo {
+    color: #ff7a00;
+    align-items: center;
+    background-color: rgb(255 255 255 / 86%);
 }
-
-.logo{
-    color: #ff7200;
-    font-size: 20px;
-    font-family:  Times, serif;
-    padding-left: 30px;
-    float: left;
-    padding-top: 10px;
-}
-
-.menu{
-    width: 600px;
-    float: left;
-    height: 70px;
-    display: flex;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;  
-}
-
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-    align-items:center;
-}
-
-ul li a{
-   text-decoration: none;
-   color:#fff;
-   font-family: arial;
-   font-weight: bold;
-   transition: 0.4s ease-in-out;  
-}
-
-ul li a:hover{
-    color: #ff7200;
-}
-
-.content{
-    width: 1050px;
-    height: auto;
-    margin: auto;
-    color: #fff;
-    position: relative;
-}
-
-.content .par{
-    padding-left: 0px;
-    padding-bottom: 20px;
-    font-family:  lucida fax;
-    letter-spacing: 0.2px;
-    line-height: 30px;
-}
-
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 40px;
-    padding-left: 0px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
-
-.content .cn {
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: none;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.content .cn {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.cn:hover{
-    background-color: #fff;
-    transition: 0.6s ease;
-    color:#000;
-}
-
-.content .cn1 {
-    width: 100px;
-    height: 40px;
-    background: #fff;
-    border: none;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.content .cn1 {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-
-.cn1:hover{
-    background-color: #ff7200;
-    transition: 0.6s ease;
-    color:#fff
-}
-
-.content span{
-    color: #ff7200;
-    font-size: 40px;
-}
-
 .form{
-     width: 250px;
-     height: 380px;
-     background: linear-gradient(to top, rgba(0, 0, 0, 0.373)50%,rgba(0, 0, 0, 0.373)50%);
+     width: 240px;
+     height: 350px;
+     background-color: #ec801f;
+     background-image: linear-gradient(225deg, #ff743c 0%, #a04b4b 50%, #a8c52b 100%);
      position: absolute;
-     top: -20px;
-     left: 800px;
-  border-radius: 10px;
-  padding: 20px;
+     top: 134px;
+     left: 586px;
+     border-radius: 10px;
+     padding: 52px;
 }
-
+h2{
+    width: 350px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: #ff7200;
+    font-size: 50px;
+    background-color: rgb(212, 55, 55);
+    border-radius: 10px;
+    margin: 6px;
+    padding: 8px;   
+}
 .form h3{
     width: 220px;
-    font-family: lusida fax;
+    font-family: 'Franklin Gothic Medium';
     text-align: center;
     color: #ff7200;
     font-size: 22px;
     background-color: #fff;
-border-radius: 10px;
-margin: 6px;
-padding: 8px;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 8px;
 }
 
 .form input{
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid #ff7200;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top:5px ;
-    font-family: sans-serif;
+        height: 25spx;
+		border-radius: 5px;
+		padding: 4px;
+		border: solid thin #aaa;
+		width: 100%;
 }
 
 .form input:focus{
@@ -189,13 +58,13 @@ padding: 8px;
 }
 
 ::placeholder{
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    color: rgb(131, 122, 122);
+    
 }
 
 .btn{
     width: 220px;
-    font-family: lusida fax;
+    font-family: 'Franklin Gothic Medium';
     text-align: center;
     font-size: 22px;
     background-color: #ff7200;
@@ -217,7 +86,7 @@ padding: 8px;
 .btn-outline{
     border-color:#ff7200;
     width: 220px;
-    font-family: lusida fax;
+    font-family: 'Franklin Gothic Medium';
     text-align: center;
     font-size: 22px;
     color: #fff;
@@ -228,7 +97,6 @@ padding: 8px;
     cursor: pointer;
     font-weight: bold;
 }
-
 
 
 
